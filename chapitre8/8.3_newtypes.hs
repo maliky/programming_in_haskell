@@ -1,0 +1,1 @@
+newtype Nat = N Int

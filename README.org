@@ -1,0 +1,3 @@
+Dossier qui donne mes réponses aux exercices de l'excellent livre "Programming in Haskell" de Graham Hutton.
+[[http://www.cs.nott.ac.uk/~pszgmh/pih.html][Page de son cours]]
+[[https://www.youtube.com/playlist?list=PLF1Z-APd9zK7usPMx3LGMZEHrECUGodd3][Vidéo du cours sur youtube]]
