@@ -1,10 +1,16 @@
 module DataTypes where
 
+-- What is an Operator
 data Op = Add | Sub | Mul | Div | Exp
 
+-- What is an Expression
 data Expr = Val Int | App Op Expr Expr
 
-type Result = (Expr,Int)
+-- the Result type
+type Result = (Expr, Int)
+
+-- A Result and complexity
+type Result_complex = (Expr, Int, Int)
 
 instance Show Expr where
   show (Val n) = show n
