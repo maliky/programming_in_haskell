@@ -1,6 +1,8 @@
 module Chapitre10 where
 -- 10.5 Derived primitives
 
+type Board = [Int]
+
 -- Return a String value
 getLine_ :: IO String
 getLine_ = do x <- getChar
@@ -28,3 +30,8 @@ strlen_ = do putStr_ "Enter a string: "
              putStr_ "The string has "
              putStr_ (show (length xs))
              putStrLn_ " characters"
+
+putRow :: Int -> Int -> IO ()
+putRow row num = do putStr (show row)
+                    putStr ": "
+                    putStrLn (concat (replicate num "* "))
