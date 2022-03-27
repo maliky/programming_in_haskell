@@ -8,7 +8,7 @@ getCh = do hSetEcho stdin False
            x <- getChar
            hSetEcho stdin True
            return x
-           
+            
 sgetLine :: IO String
 sgetLine = do x <- getCh
               if x == '\n' then

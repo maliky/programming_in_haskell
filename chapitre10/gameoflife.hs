@@ -13,6 +13,10 @@ type Pos = (Int, Int)
 writeat :: Pos -> String -> IO ()
 writeat pos xs = do goto pos
                     putStr xs
+-- clear the screen
+cls :: IO ()
+cls = putStr "\ESC[2J"
+
 
 goto :: Pos -> IO ()
 goto (x,y) = putStr ("\ESC[" ++ show y ++ ";" ++ show x ++ "H")

@@ -1,4 +1,5 @@
-import Data.Char -- for digitToInt
+import Data.Char
+                 -- for digitToInt
 -- Nim game Two players then take it in turn to remove one or more stars from the end of a single row. The winner is the player who makes the board empty, that is, who removes the ﬁnal star or stars from the board. To contrast with the top-down development of the hangman game in the previous section, we implement nim in a bottom-up manner, starting by deﬁning a series of utility functions, which are then used to implement the game itself.
 
 -- Utilities functions
