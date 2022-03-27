@@ -1,0 +1,5 @@
+    -- le type de ['a', 'b', 'c'] est [char]
+    -- le type de ('a', 'b', 'c') est (char,char,char)
+    -- le type de [(False,'0'),(True,'1')] est [(Bool,char)]
+    -- le type de ([False,True],['0','1']) est ([Bool],[char])
+    -- le type de [tail, init, reverse] est [[a] -> [a]]
